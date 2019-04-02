@@ -1,7 +1,7 @@
 {
-  "name": "typescript-setup",
+  "name": "ts-setup",
   "version": "1.0.0",
-  "description": "Typescript setup",
+  "description": "Typescript / HTML / CSS setup",
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js & npm run server",
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
