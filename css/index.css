@@ -1,0 +1,7 @@
+@import "scaffolidng.css";
+
+:root {
+  --main-bg-color: lightgoldenrodyellow;
+  --main-txt-color: red;
+  --gap: 16px;
+}
