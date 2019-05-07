@@ -1,14 +1,9 @@
-* {
-  padding: 0;
+html, body {
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
+  height: 100%;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--gap);
-  background-color: var(--main-bg-color);
-  color: var(--main-txt-color);
+#map {
+  height: 100%;
 }
