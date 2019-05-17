@@ -23,8 +23,5 @@
     "webpack-cli": "^3.3.0",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {
-    "leaflet": "^1.4.0",
-    "rxjs": "^6.5.1"
-  }
+  "dependencies": {}
 }
