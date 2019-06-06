@@ -8,7 +8,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .pointer {
