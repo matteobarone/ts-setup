@@ -46,3 +46,17 @@ body {
 .box-css-down {
   background-color: darkred;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: black;
+    background: white;
+  }
+}
