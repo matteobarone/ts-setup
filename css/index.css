@@ -1,62 +1,6 @@
 @import "scaffolidng.css";
 
-:root {
-  --main-bg-color: lightgoldenrodyellow;
-  --main-txt-color: darkblue;
-  --gap: 16px;
-}
-
-body {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.pointer {
-  --pointer-size: 20px;
-  --pointer-background: deepskyblue;
-
-  width: var(--pointer-size);
-  height: var(--pointer-size);
-  border-radius: 50%;
-  border: 2px solid var(--pointer-background);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pointer::before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: var(--pointer-background);
-}
-
-.box-css {
-  height: 100px;
-  border: 2px solid darkred;
-  background-color: red;
-  display: inline-block;
-}
-
-.box-css-hover {
-  box-shadow: 0 0 5px;
-}
-
-.box-css-down {
-  background-color: darkred;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background: black;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    color: black;
-    background: white;
-  }
+.chart {
+  background-color: lightgray;
+  border: 1px solid black;
 }
