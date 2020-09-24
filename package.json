@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Typescript / HTML / CSS setup",
   "scripts": {
-    "start": "webpack --config webpack.dev.js",
+    "start": "webpack --config webpack.dev.js & npm run server",
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
-    "server": "live-server --host=localhost"
+    "server": "live-server"
   },
   "author": "Matteo Barone",
   "license": "MIT",
@@ -22,11 +22,5 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-merge": "^4.2.1"
-  },
-  "dependencies": {
-    "@types/d3": "^5.7.2",
-    "@types/gsap": "^1.20.2",
-    "d3": "^5.16.0",
-    "gsap": "^2.1.3"
   }
 }

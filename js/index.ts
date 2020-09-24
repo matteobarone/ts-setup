@@ -1,4 +1,3 @@
 import '../css/index.css';
-import {lineExample} from './line-example';
 
-lineExample();
+console.log('Live! aaa ciccio');
